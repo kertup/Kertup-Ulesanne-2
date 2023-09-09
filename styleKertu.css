@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+.gallery-image img {
+    width: 100%;
+	border-radius: 50%;
+}
+
+header .header-banner {
+
+width: 100%;
+height: calc(100vh - 500px);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: table;
+}
+header .banner {
+
+background-image: url("imgKertu/spoons2.jpg");
+width: 100%;
+height: calc(100vh - 450px);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+display: table;
+
+}
+
+header .logo {
+
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    
+    }
+
+header h1 {
+
+    font-family: "Open Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+    color: black;
+    line-height: 70px;
+    text-transform: uppercase;
+    
+    }
+    
+    header h2 {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 5px;
+    color: black;
+    text-transform: uppercase;
+	font-style: italic;
+    
+    }
+
+    header nav ul {
+
+        display: block;
+        margin: 0 auto;
+        text-align: center; /*IE*/
+        width: fit-content;
+        
+        }
+        
+        header nav ul li {
+        
+        display: inline-block;
+        padding: 20px 16px;
+        
+        }
+
+        nav ul li a {
+
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 3px;
+            color: black;
+            text-transform: uppercase;
+            text-decoration: none;
+            
+            }
+			
+			.index-header{
+				
+                padding: 100px 100px 150px;
+				
+	font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 15px;
+            letter-spacing: 3px;
+            color: black;
+            text-align: left;
+			font-style: normal;
+                }
+
+.meist-pilt {
+	margin: 20px;
+	float:right;
+	width:341px;
+	height:227px; 
+	display: none;}
+
+            footer {
+
+                width: calc(100% - 80px);
+                padding: 40px 40px;
+                background-color: #d7d7d7;
+                margin-top: 20px;
+                overflow: hidden;
+                
+                }
+
+footer ul {
+
+    width: fit-content;
+    float: left;
+    padding-left: 0px;
+    
+    }
+    
+    footer ul li {
+    
+    display: block;
+    padding: 0 0 10px 0;
+    
+    }
+    
+    footer ul li p {
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: black;
+    
+    }
+    
+
+    .footer-sm {
+
+        width: 32px;
+        float: right;
+        
+        }
+        
+        .footer-sm img {
+        
+        width: 100%;
+        margin-bottom: 10px;
+        
+        }
+
+        hr {
+
+            color: #3e3e3e;
+            border-width: 3px;
+            width: 30%;
+            margin: 0 auto;
+            margin-bottom: 0px;
+			margin-top: 20px;
+            
+            }
+            
+            .gallery-h2 {
+            
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: 28px;
+            letter-spacing: 2px;
+            padding-bottom: 20px;
+            color: black;
+            text-transform: uppercase;
+            text-align: left;
+            
+            }
+            .gallery-image {
+
+                margin: 10px;
+                position: relative;
+                text-align: center;
+                -webkit-flex-basis: 300px;
+                -moz-flex-basis: 300px;
+                flex-basis: 300px;
+                
+                } 
+                
+                .post-header {       
+                
+                font-family: "Open Sans", sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                letter-spacing: 3px;
+                line-height: 24px;
+                color: white;
+                text-transform: uppercase;
+                text-shadow: 2px 5px 6px black;
+                
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                
+                } 
+
+                .gallery-links {
+
+                    display: flex;
+                    flex-flow: row wrap;
+                    display: -webkit-flex;
+                    -webkit-flex-flow: row wrap;
+                    display: -moz-flex;
+                    -moz-flex-flow: row wrap;
+                    justify-content: center;
+                    -o-flex-flow: row wrap;
+                    justify-content: center;
+                    
+                    }
+
+                        @media only screen and (min-width: 950px) {   
+
+                            header .header-banner {
+                            
+                                  height: calc(90vh - 400px);
+                            
+                            }   
+                            
+                            header h1 a {
+                            
+                                  font-size: 80px;
+                            
+                            }  
+                            
+                            header h2 {
+                            
+                                  font-size: 24px;
+                                  margin-top: 20px;
+                            
+                            }
+                            
+                            header nav ul li {
+                            
+                                   padding: 20px 150px;
+                            
+                            }
+							
+header .banner {
+
+width: 100%;
+height: calc(100vh - 320px);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}	
+				
+.meist-pilt {
+	margin:0px;float:right;width:341px;height:227px; display:block; padding-left:30px;}
+	
+                            .disclaimer {
+
+                                display: block;
+                                font-family: "Open Sans", sans-serif;
+                                font-weight: 300;
+                                font-size: 18px;
+                                letter-spacing: 2px;
+                                line-height: 24px;
+                                color: black;
+                                text-transform: uppercase;
+                                float: left;
+                                margin: 0 80px;
+                          
+                          }
+
+                            
+        hr {
+
+            border-style: none;
+                            }
+							
